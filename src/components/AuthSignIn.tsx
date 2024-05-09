@@ -40,8 +40,8 @@ export const AuthSignIn = () => {
                     </div>
                     <div className="text-center text-slate-500 pt-2 pb-2">
                         {"Don't have an account?"}
-                        <Link className="pl-2 underline" to={'/signin'}>
-                            {"Sign In"}
+                        <Link className="pl-2 underline" to={'/signup'}>
+                            {"Sign Up"}
                         </Link>
                     </div>
                     <InputBox label="Email" placeholder="john@example.com" onChange={(e) => {

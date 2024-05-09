@@ -30,7 +30,7 @@ export function Blog(){
     }
     return(
         <div>
-            <SingleBlog blog={blog}/>
+            {blog && <SingleBlog blog={blog}/>}
         </div>
     )
 }
